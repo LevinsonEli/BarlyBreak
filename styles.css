@@ -1,0 +1,79 @@
+body{
+	background: #ddd;
+}
+
+.newTable
+{
+	width: 400px;
+	height: 400px;
+	text-align:center;
+	font-size: 3.2em;
+	font-weight: 800;
+	vertical-align:middle;
+	margin:0 auto;
+	padding:0;
+	border: 5px solid #664444;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.newTable td
+{
+	width: 25%;
+	height: 25%;
+	background-color: #FFE4B5;
+	border: 3px solid #FFE4B5;
+	border-radius: 10px;
+}
+
+.game{
+	margin-left: 25%;
+}
+.game div{
+	float: left;
+	margin: 10px 10px;
+}
+
+#recordDiv{
+	width: 25%;
+}
+#gameBox{
+	width: 25%;
+}
+
+.recordTable{
+	width: 100%;
+	border-spacing: 0;
+}
+
+caption{
+	font-size: 2em;
+}
+
+.headerRecTable{
+	border: 1px solid black;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+
+table.recordTable :nth-child(2n) td{
+	background: #a2dda2;
+}
+
+table.recordTable :nth-child(2n - 1) tr{
+	background: #fafad2;
+}
+
+.recordTable tr td{
+	padding: 5px;
+	padding-left: 10px;
+}
+
+.newGameBtn{
+	font-size: 1.5em;
+	padding: 10px;
+	margin: 10px auto;
+	width: 100%;
+	background: #ff5;
+	font-weight: 700;
+}
